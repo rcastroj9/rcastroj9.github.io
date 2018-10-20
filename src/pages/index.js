@@ -9,9 +9,8 @@ export default ({ data }) => {
   // data.allFile.edges.map()
   console.log(data)
   return  <Layout>
-  <h1>Hi people</h1>
-  <p>Welcome to your new Gatsby site.</p>
-  <p>Now go build something great.</p>
+  <h1>Welcome to Latina Codes!</h1>
+  <p>This is a sample for the Gatsby crash course</p>
   <Link to="/page-2/">Go to page 2</Link>
 </Layout>
 }
