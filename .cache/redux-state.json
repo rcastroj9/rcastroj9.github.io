@@ -416,11 +416,11 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-manifest": {
-      "resolve": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-plugin-manifest",
-      "id": "Plugin gatsby-plugin-manifest",
-      "name": "gatsby-plugin-manifest",
-      "version": "2.0.5",
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.3",
       "pluginOptions": {
         "plugins": [],
         "name": "src",
@@ -433,26 +433,19 @@
         "icon": "src/images/gatsby-icon.png"
       },
       "nodeAPIs": [
-        "onPostBootstrap"
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
       ],
       "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-plugin-manifest",
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-source-filesystem",
       "packageJson": {
-        "name": "gatsby-plugin-manifest",
-        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.5",
-        "main": "index.js",
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.3",
         "keywords": [
           "gatsby",
-          "gatsby-plugin",
-          "favicon",
-          "icons",
-          "manifest.webmanifest",
-          "progressive-web-app",
-          "pwa"
+          "gatsby-plugin"
         ],
         "author": {
           "name": "Kyle Mathews",
@@ -465,12 +458,48 @@
             "version": "^7.0.0"
           },
           {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
             "name": "bluebird",
             "version": "^3.5.0"
           },
           {
-            "name": "sharp",
-            "version": "^0.20.2"
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
           }
         ],
         "devDependencies": [
@@ -499,7 +528,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0393a6aec8963af98eb2b4cf5b061b8b",
+        "contentDigest": "e8a9d93a007a1743f6548798aa9b90e2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -593,7 +622,7 @@
       "resolve": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "c4edb392a5f79a25a916648f0634e7e4",
+      "version": "7e8fff6df643cba09bb54ecf9fd24938",
       "pluginOptions": {
         "plugins": []
       },
@@ -661,7 +690,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c8779fc08a40530304b81f61ddf25c41",
+        "contentDigest": "315ccd085b442bc5039edcedd0acfd63",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -763,21 +792,110 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "Gatsby Crash Course"
       },
-      "port": "8000",
+      "port": 8001,
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-12T04:47:21.303Z",
+      "buildTime": "2018-10-20T20:42:44.446Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0428c82515accf3e581c3b8dd5a87e6c",
+        "contentDigest": "6d74c5f417be689c753296fedb98ce91",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "7df72134-d914-5d4f-822c-c1b0770bb518": {
+      "id": "7df72134-d914-5d4f-822c-c1b0770bb518",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b81c6e1703e45b6721b8826c6d9380cc",
+        "type": "Directory",
+        "description": "Directory \"src/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/blog/",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-10-14T00:53:30.671Z",
+      "accessTime": "2018-10-20T20:43:03.886Z",
+      "changeTime": "2018-10-14T00:53:30.671Z",
+      "birthTime": "2018-10-14T00:53:30.671Z",
+      "root": "/",
+      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8603022139,
+      "blocks": 0,
+      "atimeMs": 1540068183886.462,
+      "mtimeMs": 1539478410671.0393,
+      "ctimeMs": 1539478410671.0393,
+      "birthtimeMs": 1539478410670.882,
+      "atime": "2018-10-20T20:43:03.886Z",
+      "mtime": "2018-10-14T00:53:30.671Z",
+      "ctime": "2018-10-14T00:53:30.671Z",
+      "birthtime": "2018-10-14T00:53:30.671Z"
+    },
+    "b8fe2e97-d002-59a3-be98-c21df813a4c8": {
+      "id": "b8fe2e97-d002-59a3-be98-c21df813a4c8",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "51325ce2e82ecfd2a60ca30097434115",
+        "type": "File",
+        "mediaType": "application/octet-stream",
+        "description": "File \"src/blog/Oct10\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/blog/Oct10",
+      "relativePath": "Oct10",
+      "extension": "",
+      "size": 336,
+      "prettySize": "336 B",
+      "modifiedTime": "2018-10-14T00:53:30.671Z",
+      "accessTime": "2018-10-20T19:59:15.247Z",
+      "changeTime": "2018-10-14T00:53:30.671Z",
+      "birthTime": "2018-10-14T00:53:30.671Z",
+      "root": "/",
+      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/blog",
+      "base": "Oct10",
+      "ext": "",
+      "name": "Oct10",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8603022140,
+      "blocks": 8,
+      "atimeMs": 1540065555247.1575,
+      "mtimeMs": 1539478410671.2625,
+      "ctimeMs": 1539478410671.2625,
+      "birthtimeMs": 1539478410671.0293,
+      "atime": "2018-10-20T19:59:15.247Z",
+      "mtime": "2018-10-14T00:53:30.671Z",
+      "ctime": "2018-10-14T00:53:30.671Z",
+      "birthtime": "2018-10-14T00:53:30.671Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -795,6 +913,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "98af9805ba38f3d85cbd52d056dfe55c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "666ec8f7c02181262cbef0f580dab000",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -858,11 +996,31 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /services/": {
+      "jsonName": "services-522",
+      "internalComponentName": "ComponentServices",
+      "path": "/services/",
+      "component": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/services.js",
+      "componentChunkName": "component---src-pages-services-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/services.js",
+      "id": "SitePage /services/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2123efe27a9c17150bca2f925582f894",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "497dd18ab2791804dccc067aa249dbe1"
+    "PLUGINS_HASH": "d9f2f6b9c7851dc64ac59226b61774bf"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -870,15 +1028,21 @@
         "sq--src-components-layout-js"
       ]
     },
-    "connections": {}
+    "connections": {
+      "File": [
+        "/"
+      ]
+    }
   },
   "jsonDataPaths": {
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 755544856,
+    "index": "401/path---index-6a9-eY5cKb7x8j2dfak8FBlRnCu5FA",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "services-522": "729/path---services-522-7f2-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/.cache/dev-404-page.js": {
@@ -890,12 +1054,20 @@
       "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/404.js"
     },
     "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/index.js": {
-      "query": "",
+      "query": "query MyFilesQuery {\n  allFile {\n    edges {\n      node {\n        relativePath\n        prettySize\n        extension\n        birthTime(fromNow: true)\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/index.js"
     },
     "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/page-2.js": {
       "query": "",
       "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/page-2.js"
+    },
+    "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/about.js"
+    },
+    "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/services.js": {
+      "query": "",
+      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/services.js"
     }
   },
   "staticQueryComponents": {

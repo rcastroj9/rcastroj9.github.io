@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Gatsby Crash Course',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
         path: `${__dirname}/src/blog/`,
