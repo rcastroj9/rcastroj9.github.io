@@ -5,6 +5,11 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "2018-04-05-post-one-71b",
+        "path": "/2018-04-05 post-one/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "jsonName": "404-html-516",
         "path": "/404.html"
@@ -13,6 +18,11 @@
         "componentChunkName": "component---src-pages-404-js",
         "jsonName": "404-22d",
         "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "sept-a11",
+        "path": "/Sept/"
     },
     {
         "componentChunkName": "component---src-pages-about-js",

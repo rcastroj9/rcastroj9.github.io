@@ -5,11 +5,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
+    'gatsby-plugin-catch-links',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/blog/`,
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
