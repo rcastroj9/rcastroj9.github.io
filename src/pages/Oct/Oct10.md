@@ -1,8 +1,8 @@
-- - - 
+--- 
 title: "My first blog post"
 path: "/Oct10"
-date: "2018-04-20"
-- - -
+date: "2018-10-10"
+---
 
 Do you enjoy Gabe the Dog? He is the immortal lead singer of Bork, a European band that does covers of popular pop songs from the 80s, 90s, and today.
 
