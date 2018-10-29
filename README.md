@@ -4,7 +4,8 @@
 
 The new URL is:
 
-https://rcastroj9.netlify.com/
+<a href="https://rcastroj9.netlify.com/"> https://rcastroj9.netlify.com/ </a>
+
 
 <h3> See you there 💃 </h3>
 </div>
