@@ -602,6 +602,148 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-antd": {
+      "resolve": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-plugin-antd",
+      "id": "Plugin gatsby-plugin-antd",
+      "name": "gatsby-plugin-antd",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": [],
+        "style": true
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-plugin-antd",
+      "packageJson": {
+        "name": "gatsby-plugin-antd",
+        "description": "Gatsby plugin to use Ant Design",
+        "version": "2.0.2",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "ant design"
+        ],
+        "author": {
+          "name": "Brian Kimball"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "antd",
+            "version": "^3.9.0"
+          },
+          {
+            "name": "babel-plugin-import",
+            "version": "^1.9.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "babel-preset-stage-0",
+            "version": "^6.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "31ac7d2f9cf72f88b2f2d45fc2b5745a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-less": {
+      "resolve": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-plugin-less",
+      "id": "Plugin gatsby-plugin-less",
+      "name": "gatsby-plugin-less",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": [],
+        "javascriptEnabled": true
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-plugin-less",
+      "packageJson": {
+        "name": "gatsby-plugin-less",
+        "description": "Gatsby plugin to add support for using Less",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "less"
+        ],
+        "author": {
+          "name": "monastic.panic@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "less-loader",
+            "version": "^4.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "less",
+            "version": ">=3.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4bbd7ddbb3621643ad980aeb901204c5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-offline": {
       "resolve": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/node_modules/gatsby-plugin-offline",
       "id": "Plugin gatsby-plugin-offline",
@@ -691,7 +833,7 @@
       "resolve": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a53b6b72060bf9664864fb8c6feab74a",
+      "version": "27543ebd2d0e3c8917c690e623a2ef4c",
       "pluginOptions": {
         "plugins": []
       },
@@ -712,12 +854,24 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "antd",
+            "version": "^3.10.4"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.19"
           },
           {
+            "name": "gatsby-plugin-antd",
+            "version": "^2.0.2"
+          },
+          {
             "name": "gatsby-plugin-catch-links",
             "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-less",
+            "version": "^2.0.7"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -738,6 +892,14 @@
           {
             "name": "gatsby-transformer-remark",
             "version": "^2.1.7"
+          },
+          {
+            "name": "less",
+            "version": "^3.8.1"
+          },
+          {
+            "name": "node",
+            "version": "^11.0.0"
           },
           {
             "name": "react",
@@ -769,7 +931,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ebc0ffd3a89b0cdf987626d95f9510ca",
+        "contentDigest": "dddf2c01ec45b0f4f9e8bf9f69dcf8f7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -877,12 +1039,12 @@
       "host": "localhost",
       "pathPrefix": "/reponame",
       "polyfill": true,
-      "buildTime": "2018-10-29T03:24:38.091Z",
+      "buildTime": "2018-11-08T05:03:41.341Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "22ecd7f1a55c45bb317e5c54f5c0ac9e",
+        "contentDigest": "455bf398aa4d0af3f2ea9a78e4ae8956",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -892,7 +1054,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a93d4ecaed89db987c35db19a0dfe50e",
+        "contentDigest": "2a043dcf066ec840a36dc9786b6310b5",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -904,7 +1066,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-10-28T23:38:34.007Z",
-      "accessTime": "2018-10-29T03:24:44.087Z",
+      "accessTime": "2018-11-08T05:03:46.673Z",
       "changeTime": "2018-10-28T23:38:34.007Z",
       "birthTime": "2018-10-20T21:38:56.822Z",
       "root": "/",
@@ -922,65 +1084,21 @@
       "blksize": 4194304,
       "ino": 8603232164,
       "blocks": 0,
-      "atimeMs": 1540783484086.6611,
+      "atimeMs": 1541653426672.8975,
       "mtimeMs": 1540769914006.6074,
       "ctimeMs": 1540769914006.6074,
       "birthtimeMs": 1540071536821.7793,
-      "atime": "2018-10-29T03:24:44.087Z",
+      "atime": "2018-11-08T05:03:46.673Z",
       "mtime": "2018-10-28T23:38:34.007Z",
       "ctime": "2018-10-28T23:38:34.007Z",
       "birthtime": "2018-10-20T21:38:56.822Z"
-    },
-    "8e262ecf-ba26-54af-9147-f71ea11ec187": {
-      "id": "8e262ecf-ba26-54af-9147-f71ea11ec187",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "67f063c27c29cfa49f7309ff54622db2",
-        "type": "Directory",
-        "description": "Directory \"src/pages/Oct\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct",
-      "relativePath": "Oct",
-      "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2018-10-28T22:33:08.005Z",
-      "accessTime": "2018-10-29T03:24:44.091Z",
-      "changeTime": "2018-10-28T22:33:08.005Z",
-      "birthTime": "2018-10-28T22:33:08.004Z",
-      "root": "/",
-      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages",
-      "base": "Oct",
-      "ext": "",
-      "name": "Oct",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8603374196,
-      "blocks": 0,
-      "atimeMs": 1540783484090.8606,
-      "mtimeMs": 1540765988004.546,
-      "ctimeMs": 1540765988004.546,
-      "birthtimeMs": 1540765988004.4106,
-      "atime": "2018-10-29T03:24:44.091Z",
-      "mtime": "2018-10-28T22:33:08.005Z",
-      "ctime": "2018-10-28T22:33:08.005Z",
-      "birthtime": "2018-10-28T22:33:08.004Z"
     },
     "e70777bb-766d-599a-8806-cac83787d720": {
       "id": "e70777bb-766d-599a-8806-cac83787d720",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e0175e4e770e160312fd728166b54c34",
+        "contentDigest": "26cdb711354a674e3223874a124c1cc4",
         "type": "Directory",
         "description": "Directory \"src/pages/Sept\"",
         "owner": "gatsby-source-filesystem"
@@ -992,7 +1110,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-10-28T23:38:34.007Z",
-      "accessTime": "2018-10-29T03:24:44.091Z",
+      "accessTime": "2018-11-08T05:03:46.680Z",
       "changeTime": "2018-10-28T23:38:34.007Z",
       "birthTime": "2018-10-28T23:38:34.007Z",
       "root": "/",
@@ -1010,14 +1128,58 @@
       "blksize": 4194304,
       "ino": 8603377619,
       "blocks": 0,
-      "atimeMs": 1540783484090.891,
+      "atimeMs": 1541653426679.719,
       "mtimeMs": 1540769914006.8342,
       "ctimeMs": 1540769914006.8342,
       "birthtimeMs": 1540769914006.5942,
-      "atime": "2018-10-29T03:24:44.091Z",
+      "atime": "2018-11-08T05:03:46.680Z",
       "mtime": "2018-10-28T23:38:34.007Z",
       "ctime": "2018-10-28T23:38:34.007Z",
       "birthtime": "2018-10-28T23:38:34.007Z"
+    },
+    "8e262ecf-ba26-54af-9147-f71ea11ec187": {
+      "id": "8e262ecf-ba26-54af-9147-f71ea11ec187",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e976518a600c96616a4b45f3d483de13",
+        "type": "Directory",
+        "description": "Directory \"src/pages/Oct\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct",
+      "relativePath": "Oct",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-10-28T22:33:08.005Z",
+      "accessTime": "2018-11-08T05:03:46.680Z",
+      "changeTime": "2018-10-28T22:33:08.005Z",
+      "birthTime": "2018-10-28T22:33:08.004Z",
+      "root": "/",
+      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages",
+      "base": "Oct",
+      "ext": "",
+      "name": "Oct",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8603374196,
+      "blocks": 0,
+      "atimeMs": 1541653426679.8262,
+      "mtimeMs": 1540765988004.546,
+      "ctimeMs": 1540765988004.546,
+      "birthtimeMs": 1540765988004.4106,
+      "atime": "2018-11-08T05:03:46.680Z",
+      "mtime": "2018-10-28T22:33:08.005Z",
+      "ctime": "2018-10-28T22:33:08.005Z",
+      "birthtime": "2018-10-28T22:33:08.004Z"
     },
     "0432618e-50cf-5dfb-be08-6a533a28d78f": {
       "id": "0432618e-50cf-5dfb-be08-6a533a28d78f",
@@ -1037,7 +1199,7 @@
       "size": 248,
       "prettySize": "248 B",
       "modifiedTime": "2018-10-29T00:12:40.411Z",
-      "accessTime": "2018-10-29T03:22:35.552Z",
+      "accessTime": "2018-11-08T04:58:57.002Z",
       "changeTime": "2018-10-29T00:12:40.411Z",
       "birthTime": "2018-10-20T21:38:56.822Z",
       "root": "/",
@@ -1055,104 +1217,14 @@
       "blksize": 4194304,
       "ino": 8603232165,
       "blocks": 8,
-      "atimeMs": 1540783355552.4106,
+      "atimeMs": 1541653137001.6726,
       "mtimeMs": 1540771960411.159,
       "ctimeMs": 1540771960411.159,
       "birthtimeMs": 1540071536821.8496,
-      "atime": "2018-10-29T03:22:35.552Z",
+      "atime": "2018-11-08T04:58:57.002Z",
       "mtime": "2018-10-29T00:12:40.411Z",
       "ctime": "2018-10-29T00:12:40.411Z",
       "birthtime": "2018-10-20T21:38:56.822Z"
-    },
-    "6315fc04-70c9-5c59-a68c-9ead26967fd0": {
-      "id": "6315fc04-70c9-5c59-a68c-9ead26967fd0",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "63cdc7aaee1c665957b235a8447d4436",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/about.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/about.js",
-      "relativePath": "about.js",
-      "extension": "js",
-      "size": 498,
-      "prettySize": "498 B",
-      "modifiedTime": "2018-10-20T23:25:23.099Z",
-      "accessTime": "2018-10-28T23:59:40.895Z",
-      "changeTime": "2018-10-20T23:25:23.099Z",
-      "birthTime": "2018-10-20T23:25:23.099Z",
-      "root": "/",
-      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages",
-      "base": "about.js",
-      "ext": ".js",
-      "name": "about",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8603270672,
-      "blocks": 8,
-      "atimeMs": 1540771180894.7786,
-      "mtimeMs": 1540077923099.0012,
-      "ctimeMs": 1540077923099.0012,
-      "birthtimeMs": 1540077923098.8013,
-      "atime": "2018-10-28T23:59:40.895Z",
-      "mtime": "2018-10-20T23:25:23.099Z",
-      "ctime": "2018-10-20T23:25:23.099Z",
-      "birthtime": "2018-10-20T23:25:23.099Z"
-    },
-    "a15797fb-cfbc-54fe-8a18-c0f5efc183ce": {
-      "id": "a15797fb-cfbc-54fe-8a18-c0f5efc183ce",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4323802b6cf7d6f305270a1634405fd6",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/blog.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/blog.js",
-      "relativePath": "blog.js",
-      "extension": "js",
-      "size": 986,
-      "prettySize": "986 B",
-      "modifiedTime": "2018-10-28T22:33:08.006Z",
-      "accessTime": "2018-10-28T23:59:30.942Z",
-      "changeTime": "2018-10-28T22:33:08.006Z",
-      "birthTime": "2018-10-28T22:33:08.006Z",
-      "root": "/",
-      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages",
-      "base": "blog.js",
-      "ext": ".js",
-      "name": "blog",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8603374200,
-      "blocks": 8,
-      "atimeMs": 1540771170941.5996,
-      "mtimeMs": 1540765988005.9905,
-      "ctimeMs": 1540765988005.9905,
-      "birthtimeMs": 1540765988005.6038,
-      "atime": "2018-10-28T23:59:30.942Z",
-      "mtime": "2018-10-28T22:33:08.006Z",
-      "ctime": "2018-10-28T22:33:08.006Z",
-      "birthtime": "2018-10-28T22:33:08.006Z"
     },
     "a0fd3c17-8ad9-58eb-8272-dd467bd72a48": {
       "id": "a0fd3c17-8ad9-58eb-8272-dd467bd72a48",
@@ -1172,7 +1244,7 @@
       "size": 827,
       "prettySize": "827 B",
       "modifiedTime": "2018-10-28T22:33:08.006Z",
-      "accessTime": "2018-10-28T23:59:40.895Z",
+      "accessTime": "2018-11-08T04:58:57.002Z",
       "changeTime": "2018-10-28T22:33:08.006Z",
       "birthTime": "2018-10-28T22:33:08.006Z",
       "root": "/",
@@ -1190,14 +1262,59 @@
       "blksize": 4194304,
       "ino": 8603374201,
       "blocks": 8,
-      "atimeMs": 1540771180894.8008,
+      "atimeMs": 1541653137001.793,
       "mtimeMs": 1540765988006.2085,
       "ctimeMs": 1540765988006.2085,
       "birthtimeMs": 1540765988006.1116,
-      "atime": "2018-10-28T23:59:40.895Z",
+      "atime": "2018-11-08T04:58:57.002Z",
       "mtime": "2018-10-28T22:33:08.006Z",
       "ctime": "2018-10-28T22:33:08.006Z",
       "birthtime": "2018-10-28T22:33:08.006Z"
+    },
+    "6315fc04-70c9-5c59-a68c-9ead26967fd0": {
+      "id": "6315fc04-70c9-5c59-a68c-9ead26967fd0",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "63cdc7aaee1c665957b235a8447d4436",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/about.js",
+      "relativePath": "about.js",
+      "extension": "js",
+      "size": 498,
+      "prettySize": "498 B",
+      "modifiedTime": "2018-10-20T23:25:23.099Z",
+      "accessTime": "2018-11-08T04:58:57.002Z",
+      "changeTime": "2018-10-20T23:25:23.099Z",
+      "birthTime": "2018-10-20T23:25:23.099Z",
+      "root": "/",
+      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8603270672,
+      "blocks": 8,
+      "atimeMs": 1541653137001.7344,
+      "mtimeMs": 1540077923099.0012,
+      "ctimeMs": 1540077923099.0012,
+      "birthtimeMs": 1540077923098.8013,
+      "atime": "2018-11-08T04:58:57.002Z",
+      "mtime": "2018-10-20T23:25:23.099Z",
+      "ctime": "2018-10-20T23:25:23.099Z",
+      "birthtime": "2018-10-20T23:25:23.099Z"
     },
     "3d9841d0-a988-5c1b-85f5-740175235d37": {
       "id": "3d9841d0-a988-5c1b-85f5-740175235d37",
@@ -1217,7 +1334,7 @@
       "size": 266,
       "prettySize": "266 B",
       "modifiedTime": "2018-10-28T23:11:09.390Z",
-      "accessTime": "2018-10-28T23:59:40.895Z",
+      "accessTime": "2018-11-08T04:58:57.002Z",
       "changeTime": "2018-10-28T23:11:09.390Z",
       "birthTime": "2018-10-28T23:11:09.389Z",
       "root": "/",
@@ -1235,21 +1352,66 @@
       "blksize": 4194304,
       "ino": 8603376321,
       "blocks": 8,
-      "atimeMs": 1540771180894.8142,
+      "atimeMs": 1541653137001.795,
       "mtimeMs": 1540768269389.6982,
       "ctimeMs": 1540768269389.6982,
       "birthtimeMs": 1540768269389.0774,
-      "atime": "2018-10-28T23:59:40.895Z",
+      "atime": "2018-11-08T04:58:57.002Z",
       "mtime": "2018-10-28T23:11:09.390Z",
       "ctime": "2018-10-28T23:11:09.390Z",
       "birthtime": "2018-10-28T23:11:09.389Z"
+    },
+    "a15797fb-cfbc-54fe-8a18-c0f5efc183ce": {
+      "id": "a15797fb-cfbc-54fe-8a18-c0f5efc183ce",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f14f2f932025df3eb86cdc9145927bea",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/blog.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/blog.js",
+      "relativePath": "blog.js",
+      "extension": "js",
+      "size": 987,
+      "prettySize": "987 B",
+      "modifiedTime": "2018-11-08T05:16:40.703Z",
+      "accessTime": "2018-11-08T05:16:40.703Z",
+      "changeTime": "2018-11-08T05:16:40.703Z",
+      "birthTime": "2018-10-28T22:33:08.006Z",
+      "root": "/",
+      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages",
+      "base": "blog.js",
+      "ext": ".js",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8603374200,
+      "blocks": 8,
+      "atimeMs": 1541654200702.7576,
+      "mtimeMs": 1541654200703.484,
+      "ctimeMs": 1541654200703.484,
+      "birthtimeMs": 1540765988005.6038,
+      "atime": "2018-11-08T05:16:40.703Z",
+      "mtime": "2018-11-08T05:16:40.703Z",
+      "ctime": "2018-11-08T05:16:40.703Z",
+      "birthtime": "2018-10-28T22:33:08.006Z"
     },
     "faece987-255d-5b20-a6b7-3a12b450e8a3": {
       "id": "faece987-255d-5b20-a6b7-3a12b450e8a3",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d5cf0f5f87a18b0aa702466d14341573",
+        "contentDigest": "73385a47a50dfad0163605ad77a5751d",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/page-2.js\"",
@@ -1259,11 +1421,11 @@
       "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/page-2.js",
       "relativePath": "page-2.js",
       "extension": "js",
-      "size": 293,
-      "prettySize": "293 B",
-      "modifiedTime": "2018-10-20T21:38:56.822Z",
-      "accessTime": "2018-10-28T23:59:34.643Z",
-      "changeTime": "2018-10-20T21:38:56.822Z",
+      "size": 294,
+      "prettySize": "294 B",
+      "modifiedTime": "2018-11-08T05:09:17.328Z",
+      "accessTime": "2018-11-08T05:09:17.616Z",
+      "changeTime": "2018-11-08T05:09:17.328Z",
       "birthTime": "2018-10-20T21:38:56.822Z",
       "root": "/",
       "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages",
@@ -1280,61 +1442,14 @@
       "blksize": 4194304,
       "ino": 8603232167,
       "blocks": 8,
-      "atimeMs": 1540771174643.2083,
-      "mtimeMs": 1540071536822.4524,
-      "ctimeMs": 1540071536822.4524,
+      "atimeMs": 1541653757616.1467,
+      "mtimeMs": 1541653757328.1562,
+      "ctimeMs": 1541653757328.1562,
       "birthtimeMs": 1540071536822.3752,
-      "atime": "2018-10-28T23:59:34.643Z",
-      "mtime": "2018-10-20T21:38:56.822Z",
-      "ctime": "2018-10-20T21:38:56.822Z",
+      "atime": "2018-11-08T05:09:17.616Z",
+      "mtime": "2018-11-08T05:09:17.328Z",
+      "ctime": "2018-11-08T05:09:17.328Z",
       "birthtime": "2018-10-20T21:38:56.822Z"
-    },
-    "1212e7ce-00c1-5772-9a65-710df4a151ca": {
-      "id": "1212e7ce-00c1-5772-9a65-710df4a151ca",
-      "children": [
-        "b90f0040-0aec-5b5e-933f-8f6091ccc37a"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "57a317882d6961f93642d3cca1b9c73b",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/pages/Oct/Oct10.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct/Oct10.md",
-      "relativePath": "Oct/Oct10.md",
-      "extension": "md",
-      "size": 354,
-      "prettySize": "354 B",
-      "modifiedTime": "2018-10-28T22:33:08.005Z",
-      "accessTime": "2018-10-28T23:59:30.119Z",
-      "changeTime": "2018-10-28T22:33:08.005Z",
-      "birthTime": "2018-10-28T22:33:08.005Z",
-      "root": "/",
-      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct",
-      "base": "Oct10.md",
-      "ext": ".md",
-      "name": "Oct10",
-      "relativeDirectory": "Oct",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8603374197,
-      "blocks": 8,
-      "atimeMs": 1540771170119.3516,
-      "mtimeMs": 1540765988004.8687,
-      "ctimeMs": 1540765988004.8687,
-      "birthtimeMs": 1540765988004.5396,
-      "atime": "2018-10-28T23:59:30.119Z",
-      "mtime": "2018-10-28T22:33:08.005Z",
-      "ctime": "2018-10-28T22:33:08.005Z",
-      "birthtime": "2018-10-28T22:33:08.005Z"
     },
     "ef5be7eb-e847-55ff-b7e8-1851c5fad9ba": {
       "id": "ef5be7eb-e847-55ff-b7e8-1851c5fad9ba",
@@ -1356,7 +1471,7 @@
       "size": 356,
       "prettySize": "356 B",
       "modifiedTime": "2018-10-28T23:38:34.007Z",
-      "accessTime": "2018-10-28T23:59:30.120Z",
+      "accessTime": "2018-11-08T04:58:51.132Z",
       "changeTime": "2018-10-28T23:38:34.007Z",
       "birthTime": "2018-10-28T23:38:34.007Z",
       "root": "/",
@@ -1374,34 +1489,61 @@
       "blksize": 4194304,
       "ino": 8603377620,
       "blocks": 8,
-      "atimeMs": 1540771170120.1987,
+      "atimeMs": 1541653131131.7852,
       "mtimeMs": 1540769914007.364,
       "ctimeMs": 1540769914007.364,
       "birthtimeMs": 1540769914006.8223,
-      "atime": "2018-10-28T23:59:30.120Z",
+      "atime": "2018-11-08T04:58:51.132Z",
       "mtime": "2018-10-28T23:38:34.007Z",
       "ctime": "2018-10-28T23:38:34.007Z",
       "birthtime": "2018-10-28T23:38:34.007Z"
     },
-    "b90f0040-0aec-5b5e-933f-8f6091ccc37a": {
-      "id": "b90f0040-0aec-5b5e-933f-8f6091ccc37a",
-      "children": [],
-      "parent": "1212e7ce-00c1-5772-9a65-710df4a151ca",
+    "1212e7ce-00c1-5772-9a65-710df4a151ca": {
+      "id": "1212e7ce-00c1-5772-9a65-710df4a151ca",
+      "children": [
+        "b90f0040-0aec-5b5e-933f-8f6091ccc37a"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\nDo you enjoy Gabe the Dog? He is the immortal lead singer of Bork, a European band that does covers of popular pop songs from the 80s, 90s, and today.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c--etqIJcow?ecver=1\" frameborder=\"0\" allowfullscreen></iframe>",
-        "type": "MarkdownRemark",
-        "contentDigest": "a68f65e5ea05a090711249d06e32d616",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "fc4cadeb728a76f1a1fca6842f00c61f",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/Oct/Oct10.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "My first blog post",
-        "path": "/Oct10",
-        "date": "2018-10-10",
-        "_PARENT": "1212e7ce-00c1-5772-9a65-710df4a151ca"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nDo you enjoy Gabe the Dog? He is the immortal lead singer of Bork, a European band that does covers of popular pop songs from the 80s, 90s, and today.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c--etqIJcow?ecver=1\" frameborder=\"0\" allowfullscreen></iframe>",
-      "fileAbsolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct/Oct10.md"
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct/Oct10.md",
+      "relativePath": "Oct/Oct10.md",
+      "extension": "md",
+      "size": 374,
+      "prettySize": "374 B",
+      "modifiedTime": "2018-11-08T05:20:16.761Z",
+      "accessTime": "2018-11-08T05:20:17.773Z",
+      "changeTime": "2018-11-08T05:20:16.761Z",
+      "birthTime": "2018-10-28T22:33:08.005Z",
+      "root": "/",
+      "dir": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct",
+      "base": "Oct10.md",
+      "ext": ".md",
+      "name": "Oct10",
+      "relativeDirectory": "Oct",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8603374197,
+      "blocks": 8,
+      "atimeMs": 1541654417773.2632,
+      "mtimeMs": 1541654416760.81,
+      "ctimeMs": 1541654416760.81,
+      "birthtimeMs": 1540765988004.5396,
+      "atime": "2018-11-08T05:20:17.773Z",
+      "mtime": "2018-11-08T05:20:16.761Z",
+      "ctime": "2018-11-08T05:20:16.761Z",
+      "birthtime": "2018-10-28T22:33:08.005Z"
     },
     "1f32c3f1-7317-5c49-84ce-6ade63b1c87b": {
       "id": "1f32c3f1-7317-5c49-84ce-6ade63b1c87b",
@@ -1423,26 +1565,6 @@
       "rawMarkdownBody": "\nDo you enjoy Gabe the Dog? He is the immortal lead singer of Bork, a European band that does covers of popular pop songs from the 80s, 90s, and today.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c--etqIJcow?ecver=1\" frameborder=\"0\" allowfullscreen></iframe>",
       "fileAbsolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Sept/Sept12.md"
     },
-    "SitePage /Oct10": {
-      "jsonName": "oct-10-e8b",
-      "internalComponentName": "ComponentOct10",
-      "path": "/Oct10",
-      "component": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/templates/blog-post.js",
-      "id": "SitePage /Oct10",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f527eb8045f4b6601f30e689c94e7cf5",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /Sept11": {
       "jsonName": "sept-11-327",
       "internalComponentName": "ComponentSept11",
@@ -1459,6 +1581,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "dfeacc41daff8094e92862df3fa72c93",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /Oct10": {
+      "jsonName": "oct-10-e8b",
+      "internalComponentName": "ComponentOct10",
+      "path": "/Oct10",
+      "component": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/templates/blog-post.js",
+      "id": "SitePage /Oct10",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f527eb8045f4b6601f30e689c94e7cf5",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1602,22 +1744,42 @@
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "b90f0040-0aec-5b5e-933f-8f6091ccc37a": {
+      "id": "b90f0040-0aec-5b5e-933f-8f6091ccc37a",
+      "children": [],
+      "parent": "1212e7ce-00c1-5772-9a65-710df4a151ca",
+      "internal": {
+        "content": "\nDo you enjoy Gabe the Dog? He is the immortal lead singer of Bork, a European band that does covers of popular pop songs from the 80s, 90s, and today.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c--etqIJcow?ecver=1\" frameborder=\"0\" allowfullscreen></iframe>\n\n:woman::laughing:",
+        "type": "MarkdownRemark",
+        "contentDigest": "83c9b0fe8f8cb62d3f1b3afcccff4786",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My first blog post",
+        "path": "/Oct10",
+        "date": "2018-10-10",
+        "_PARENT": "1212e7ce-00c1-5772-9a65-710df4a151ca"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDo you enjoy Gabe the Dog? He is the immortal lead singer of Bork, a European band that does covers of popular pop songs from the 80s, 90s, and today.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c--etqIJcow?ecver=1\" frameborder=\"0\" allowfullscreen></iframe>\n\n:woman::laughing:",
+      "fileAbsolutePath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/Oct/Oct10.md"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "865fd9882fe660a045d68134e19d32f8"
+    "PLUGINS_HASH": "4396082390a4b05cd7f19ad8e229a20e"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
       ],
-      "b90f0040-0aec-5b5e-933f-8f6091ccc37a": [
-        "/Oct10"
-      ],
       "1f32c3f1-7317-5c49-84ce-6ade63b1c87b": [
         "/Sept11"
+      ],
+      "b90f0040-0aec-5b5e-933f-8f6091ccc37a": [
+        "/Oct10"
       ]
     },
     "connections": {
@@ -1628,9 +1790,9 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 755544856,
-    "blog-f7a": "577/path---blog-f-7-a-05d-EqPA5dfCJG8lggQqutqdVxwRjCI",
+    "blog-f7a": "738/path---blog-f-7-a-05d-nYeYpDrgMTzyOgdASMFJzSIc",
     "sept-11-327": "89/path---sept-11-327-21b-Ul5sCpZOv0NKVuio8n80coPREg",
-    "oct-10-e8b": "819/path---oct-10-e-8-b-880-aRbWs4JReEnvSuXAZzgN9tsJSc",
+    "oct-10-e8b": "417/path---oct-10-e-8-b-880-Wt7mg89IRhouqV4jKw1nNGPFtM",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -1644,6 +1806,10 @@
     "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/templates/blog-post.js": {
       "query": "query BlogPostbyPath(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n      date\n    }\n  }\n}\n",
       "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/templates/blog-post.js"
+    },
+    "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/.cache/dev-404-page.js"
     },
     "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/404.js": {
       "query": "",
@@ -1668,10 +1834,6 @@
     "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/page-2.js": {
       "query": "",
       "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/src/pages/page-2.js"
-    },
-    "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/sebastianalvarado/DaniBlog/rcastroj9.github.io/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
