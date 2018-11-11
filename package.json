@@ -6,7 +6,7 @@
   "homepage": "https://rcastroj9.github.io",
   "dependencies": {
     "antd": "^3.10.4",
-    "gatsby": "^2.0.19",
+    "gatsby": "^2.0.33",
     "gatsby-plugin-antd": "^2.0.2",
     "gatsby-plugin-catch-links": "^2.0.5",
     "gatsby-plugin-less": "^2.0.7",
