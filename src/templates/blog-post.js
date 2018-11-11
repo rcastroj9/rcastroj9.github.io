@@ -4,9 +4,6 @@ import Layout from '../components/layout';
 
 export default function Template({data}){
     const post = data.markdownRemark
-
-
-
     return (
         <Layout>
             <div>
