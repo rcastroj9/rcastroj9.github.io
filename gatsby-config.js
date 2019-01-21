@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/reponame",
   siteMetadata: {
-    title: 'Gatsby Crash Course',
+    title: '@latina_codes',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
