@@ -16,11 +16,10 @@ const styles = {
 
 class Menu extends React.Component {
   state = {
-    current: 'blog',
+    current: 'aboutMe',
   }
 
   handleClick = (e) => {
-    console.log('click ', e);
     this.setState({
       current: e.key,
     });

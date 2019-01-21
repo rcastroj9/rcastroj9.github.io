@@ -1,17 +1,17 @@
 import React from 'react'
 import Layout from '../components/layout'
 
+const style = {
+    header: {
+        fontFamily: "'Playfair Display', serif",
+    }
+}
 
 const AboutPage = () => (
     <Layout>
-      <h1>About Us</h1>
-      <p>
-          HTML5 introduced a method to let web designers 
-          take control over the viewport, through the *meta*
-          tag. The viewport is the user's visible area of a web 
-          page. It varies with the device, and will be smaller 
-          on a mobile phone than on a computer screen.
-     </p>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:700" rel="stylesheet"/>
+        <h1 style={style.header}>Welcome to my blog!</h1>
+        <img src={require('../images/collage.jpg')} style={{ display:'block', margin:"auto", width:"500px", height:"500px"}}/>
     </Layout>
 )
 
