@@ -79,7 +79,7 @@ const Layout = ({ children }) => (
               {children}
               </div>
             </Content>
-            <Footer>Footer</Footer>
+            {/* <Footer>Footer</Footer> */}
         </AntLayout>
       </>
     )}

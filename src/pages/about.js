@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 const style = {
     header: {
         fontFamily: "'Playfair Display', serif",
+        textAlign: 'center'
     }
 }
 
